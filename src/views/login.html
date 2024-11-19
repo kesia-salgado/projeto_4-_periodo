@@ -1,0 +1,24 @@
+<section class="login-section">
+    <div class="login-container">
+        <h2>FAÇA LOGIN NA SUA CONTA</h2>
+        <form id="loginForm" class="login-form" action="/login" method="POST">
+            <div class="form-group">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <button type="submit" class="login-button">LOGIN</button>
+            <div class="signup-link">
+                <p>Não tem uma conta?</p>
+                <a href="/registro">Inscreva-se agora</a>
+            </div>
+        </form>
+    </div>
+</section>
